@@ -1,7 +1,6 @@
-import { GraphQLList, GraphQLInt } from 'graphql';
+import { GraphQLList, GraphQLInt, GraphQLString } from 'graphql';
 import { Products } from '../../Entities/Products';
 import { ProductType } from '../TypeDefs/ProductType';
-import { GraphQLString } from 'graphql';
 import { Pagination } from '../../globalType';
 
 

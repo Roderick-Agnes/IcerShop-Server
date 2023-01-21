@@ -1,6 +1,6 @@
 import { GraphQLList, GraphQLInt } from 'graphql';
 import { CategoryType } from '../TypeDefs/CategoryType';
-import { Categories } from '../Entities/Categories';
+import { Categories } from '../../Entities/Categories';
 import { Pagination } from '../../globalType';
 
 export const GET_ALL_CATEGORIES = {
